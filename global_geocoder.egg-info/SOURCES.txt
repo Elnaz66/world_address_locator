@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+global_geocoder.egg-info/PKG-INFO
+global_geocoder.egg-info/SOURCES.txt
+global_geocoder.egg-info/dependency_links.txt
+global_geocoder.egg-info/requires.txt
+global_geocoder.egg-info/top_level.txt
+world_address_locator/__init__.py
+world_address_locator/geocode.py

@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: global_geocoder
+Version: 0.1
+Summary: Dünya adreslerini koordinatlandırmak için Python kütüphanesi
+Home-page: https://github.com/Elnaz66
+Author: Elnaz Najatishendi(Paşa)
+Author-email: nejati.elnaz@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: geopy
+Requires-Dist: openpyxl
+
+# global_geocoder
+
+Excel dosyasД±ndaki adreslerden (DГјnya bazinda) koordinat (enlem, boylam) bilgisi Г§Д±karan Python paketi.  
+OpenStreetMap (Nominatim) altyapД±sД± ile Г§alД±ЕџД±r.
+
+## KullanД±m
+
+```python
+from global_geocoder import process_excel_file
+process_excel_file("adresler.xlsx", "sonuc.xlsx")
+yaml
+Copy
+Edit
+
+
+Projeyi klonladД±ktan veya indirdikten sonra:
+
+pip install -e .
